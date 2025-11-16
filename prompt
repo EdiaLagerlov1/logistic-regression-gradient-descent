@@ -1,0 +1,26 @@
+
+You are a software architect, Please plan prd.md to the task below 
+Please follow: 
+- **Maximum file length**: 150 lines per file (strict limit) - **Single Responsibility**: Each file/class/function does ONE thing - **No duplicate code**: Extract common logic into reusable functions - **Separation of Concerns**: Separate data, business logic, and presentation
+
+The task:
+
+1.Create 2 groups of 100 points ( x1, x2 )  x1, x2 are between 0-1  so that each group has a Gaussian distribution with constant mean and variance (random), and so that the points do not overlap across the group
+
+2. Classify them into blue and red groups
+
+3. Create a data set ( x0=1, x1, x2, response) from the data
+
+4.  Find sigmoid1 using the data set and vector 𝛽1 (parameter)
+
+5. Calc the response for each ( x0=1, x1, x2) using sigmoid1
+6. Display a graph of the points with the two group's distributions : the original, in red and blue, and according to sigmoid1, in light red and light blue respectively
+
+7. Run gradient descent to achieve max likelihood using log likelihood and run number (parameter) of iterations and number(parameter) of learning steps , for each iteration keep 5𝛽, 4𝛽 , 3𝛽, 2𝛽 ect. Respectively
+
+8. 
+For each 𝛽 find the average error by running the sigmoid on the data set, and finding the average Euclidean distance between the response and the sigmoid result
+9. 
+For each 𝛽 find the average error by running the sigmoid on the data set, and finding the average Euclidean distance between the response and the sigmoid result
+
+10. Both graphs should display in same page
